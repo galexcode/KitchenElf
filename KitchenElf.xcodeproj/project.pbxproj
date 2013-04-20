@@ -21,6 +21,7 @@
 		FC3B87F71723502900754D24 /* KitchenElf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC3B87F51723502900754D24 /* KitchenElf.xcdatamodeld */; };
 		FC3B87FA1723502900754D24 /* KEMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3B87F91723502900754D24 /* KEMasterViewController.m */; };
 		FC3B87FD1723502900754D24 /* KEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3B87FC1723502900754D24 /* KEDetailViewController.m */; };
+		FC3B88041723505D00754D24 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3B88031723505D00754D24 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		FC3B87F91723502900754D24 /* KEMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEMasterViewController.m; sourceTree = "<group>"; };
 		FC3B87FB1723502900754D24 /* KEDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEDetailViewController.h; sourceTree = "<group>"; };
 		FC3B87FC1723502900754D24 /* KEDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEDetailViewController.m; sourceTree = "<group>"; };
+		FC3B88031723505D00754D24 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				FC3B87DB1723502900754D24 /* Foundation.framework in Frameworks */,
 				FC3B87DD1723502900754D24 /* CoreGraphics.framework in Frameworks */,
 				FC3B87DF1723502900754D24 /* CoreData.framework in Frameworks */,
+				FC3B88041723505D00754D24 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 		FC3B87D71723502900754D24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC3B88031723505D00754D24 /* Parse.framework */,
 				FC3B87D81723502900754D24 /* UIKit.framework */,
 				FC3B87DA1723502900754D24 /* Foundation.framework */,
 				FC3B87DC1723502900754D24 /* CoreGraphics.framework */,
@@ -277,6 +281,10 @@
 		FC3B88011723502900754D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KitchenElf/KitchenElf-Prefix.pch";
 				INFOPLIST_FILE = "KitchenElf/KitchenElf-Info.plist";
@@ -288,6 +296,10 @@
 		FC3B88021723502900754D24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KitchenElf/KitchenElf-Prefix.pch";
 				INFOPLIST_FILE = "KitchenElf/KitchenElf-Info.plist";
