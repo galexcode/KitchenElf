@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC3B87D91723502900754D24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3B87D81723502900754D24 /* UIKit.framework */; };
+		FC3B87DB1723502900754D24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3B87DA1723502900754D24 /* Foundation.framework */; };
+		FC3B87DD1723502900754D24 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3B87DC1723502900754D24 /* CoreGraphics.framework */; };
+		FC3B87DF1723502900754D24 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3B87DE1723502900754D24 /* CoreData.framework */; };
+		FC3B87E51723502900754D24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC3B87E31723502900754D24 /* InfoPlist.strings */; };
+		FC3B87E71723502900754D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3B87E61723502900754D24 /* main.m */; };
+		FC3B87EB1723502900754D24 /* KEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3B87EA1723502900754D24 /* KEAppDelegate.m */; };
+		FC3B87ED1723502900754D24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3B87EC1723502900754D24 /* Default.png */; };
+		FC3B87EF1723502900754D24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3B87EE1723502900754D24 /* Default@2x.png */; };
+		FC3B87F11723502900754D24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC3B87F01723502900754D24 /* Default-568h@2x.png */; };
+		FC3B87F41723502900754D24 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3B87F21723502900754D24 /* MainStoryboard.storyboard */; };
+		FC3B87F71723502900754D24 /* KitchenElf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC3B87F51723502900754D24 /* KitchenElf.xcdatamodeld */; };
+		FC3B87FA1723502900754D24 /* KEMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3B87F91723502900754D24 /* KEMasterViewController.m */; };
+		FC3B87FD1723502900754D24 /* KEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3B87FC1723502900754D24 /* KEDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC3B87D51723502900754D24 /* KitchenElf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenElf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3B87D81723502900754D24 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC3B87DA1723502900754D24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC3B87DC1723502900754D24 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC3B87DE1723502900754D24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FC3B87E21723502900754D24 /* KitchenElf-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KitchenElf-Info.plist"; sourceTree = "<group>"; };
+		FC3B87E41723502900754D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC3B87E61723502900754D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC3B87E81723502900754D24 /* KitchenElf-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KitchenElf-Prefix.pch"; sourceTree = "<group>"; };
+		FC3B87E91723502900754D24 /* KEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEAppDelegate.h; sourceTree = "<group>"; };
+		FC3B87EA1723502900754D24 /* KEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEAppDelegate.m; sourceTree = "<group>"; };
+		FC3B87EC1723502900754D24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FC3B87EE1723502900754D24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FC3B87F01723502900754D24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FC3B87F31723502900754D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FC3B87F61723502900754D24 /* KitchenElf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KitchenElf.xcdatamodel; sourceTree = "<group>"; };
+		FC3B87F81723502900754D24 /* KEMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEMasterViewController.h; sourceTree = "<group>"; };
+		FC3B87F91723502900754D24 /* KEMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEMasterViewController.m; sourceTree = "<group>"; };
+		FC3B87FB1723502900754D24 /* KEDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEDetailViewController.h; sourceTree = "<group>"; };
+		FC3B87FC1723502900754D24 /* KEDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC3B87D21723502900754D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3B87D91723502900754D24 /* UIKit.framework in Frameworks */,
+				FC3B87DB1723502900754D24 /* Foundation.framework in Frameworks */,
+				FC3B87DD1723502900754D24 /* CoreGraphics.framework in Frameworks */,
+				FC3B87DF1723502900754D24 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC3B87CC1723502900754D24 = {
+			isa = PBXGroup;
+			children = (
+				FC3B87E01723502900754D24 /* KitchenElf */,
+				FC3B87D71723502900754D24 /* Frameworks */,
+				FC3B87D61723502900754D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC3B87D61723502900754D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B87D51723502900754D24 /* KitchenElf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC3B87D71723502900754D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B87D81723502900754D24 /* UIKit.framework */,
+				FC3B87DA1723502900754D24 /* Foundation.framework */,
+				FC3B87DC1723502900754D24 /* CoreGraphics.framework */,
+				FC3B87DE1723502900754D24 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC3B87E01723502900754D24 /* KitchenElf */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B87E91723502900754D24 /* KEAppDelegate.h */,
+				FC3B87EA1723502900754D24 /* KEAppDelegate.m */,
+				FC3B87F21723502900754D24 /* MainStoryboard.storyboard */,
+				FC3B87F81723502900754D24 /* KEMasterViewController.h */,
+				FC3B87F91723502900754D24 /* KEMasterViewController.m */,
+				FC3B87FB1723502900754D24 /* KEDetailViewController.h */,
+				FC3B87FC1723502900754D24 /* KEDetailViewController.m */,
+				FC3B87F51723502900754D24 /* KitchenElf.xcdatamodeld */,
+				FC3B87E11723502900754D24 /* Supporting Files */,
+			);
+			path = KitchenElf;
+			sourceTree = "<group>";
+		};
+		FC3B87E11723502900754D24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC3B87E21723502900754D24 /* KitchenElf-Info.plist */,
+				FC3B87E31723502900754D24 /* InfoPlist.strings */,
+				FC3B87E61723502900754D24 /* main.m */,
+				FC3B87E81723502900754D24 /* KitchenElf-Prefix.pch */,
+				FC3B87EC1723502900754D24 /* Default.png */,
+				FC3B87EE1723502900754D24 /* Default@2x.png */,
+				FC3B87F01723502900754D24 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC3B87D41723502900754D24 /* KitchenElf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC3B88001723502900754D24 /* Build configuration list for PBXNativeTarget "KitchenElf" */;
+			buildPhases = (
+				FC3B87D11723502900754D24 /* Sources */,
+				FC3B87D21723502900754D24 /* Frameworks */,
+				FC3B87D31723502900754D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KitchenElf;
+			productName = KitchenElf;
+			productReference = FC3B87D51723502900754D24 /* KitchenElf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC3B87CD1723502900754D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ming Fu";
+			};
+			buildConfigurationList = FC3B87D01723502900754D24 /* Build configuration list for PBXProject "KitchenElf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC3B87CC1723502900754D24;
+			productRefGroup = FC3B87D61723502900754D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC3B87D41723502900754D24 /* KitchenElf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC3B87D31723502900754D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3B87E51723502900754D24 /* InfoPlist.strings in Resources */,
+				FC3B87ED1723502900754D24 /* Default.png in Resources */,
+				FC3B87EF1723502900754D24 /* Default@2x.png in Resources */,
+				FC3B87F11723502900754D24 /* Default-568h@2x.png in Resources */,
+				FC3B87F41723502900754D24 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC3B87D11723502900754D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3B87E71723502900754D24 /* main.m in Sources */,
+				FC3B87EB1723502900754D24 /* KEAppDelegate.m in Sources */,
+				FC3B87F71723502900754D24 /* KitchenElf.xcdatamodeld in Sources */,
+				FC3B87FA1723502900754D24 /* KEMasterViewController.m in Sources */,
+				FC3B87FD1723502900754D24 /* KEDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC3B87E31723502900754D24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3B87E41723502900754D24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC3B87F21723502900754D24 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC3B87F31723502900754D24 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC3B87FE1723502900754D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FC3B87FF1723502900754D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC3B88011723502900754D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KitchenElf/KitchenElf-Prefix.pch";
+				INFOPLIST_FILE = "KitchenElf/KitchenElf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC3B88021723502900754D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KitchenElf/KitchenElf-Prefix.pch";
+				INFOPLIST_FILE = "KitchenElf/KitchenElf-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC3B87D01723502900754D24 /* Build configuration list for PBXProject "KitchenElf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3B87FE1723502900754D24 /* Debug */,
+				FC3B87FF1723502900754D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC3B88001723502900754D24 /* Build configuration list for PBXNativeTarget "KitchenElf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC3B88011723502900754D24 /* Debug */,
+				FC3B88021723502900754D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC3B87F51723502900754D24 /* KitchenElf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC3B87F61723502900754D24 /* KitchenElf.xcdatamodel */,
+			);
+			currentVersion = FC3B87F61723502900754D24 /* KitchenElf.xcdatamodel */;
+			path = KitchenElf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC3B87CD1723502900754D24 /* Project object */;
+}
